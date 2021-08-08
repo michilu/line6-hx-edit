@@ -6,7 +6,7 @@
       "application": "HX Edit",
       "appversion": 51445760,
       "build_sha": "v3.02-223-g4c4f82f",
-      "modifieddate": 1628323030,
+      "modifieddate": 1628386023,
       "name": "BOOWY 1987"
     },
     "tone": {
@@ -58,11 +58,11 @@
               "@min": 1
             }
           },
-          "join": {
-            "A Level": {
+          "split": {
+            "RouteTo": {
               "@controller": 9,
-              "@max": 12,
-              "@min": -60
+              "@max": 1,
+              "@min": 0
             }
           }
         }
@@ -240,7 +240,7 @@
           "@model": "HD2_AppDSPFlowJoin",
           "@no_snapshot_bypass": false,
           "@position": 8,
-          "A Level": -6.1999969482421875,
+          "A Level": -1,
           "A Pan": 0.5,
           "B Level": 0,
           "B Pan": 0.5,
@@ -262,11 +262,10 @@
         },
         "split": {
           "@enabled": true,
-          "@model": "HD2_AppDSPFlowSplitY",
+          "@model": "HD2_AppDSPFlowSplitAB",
           "@no_snapshot_bypass": false,
           "@position": 4,
-          "BalanceA": 0.5,
-          "BalanceB": 0.5,
+          "RouteTo": 0.75,
           "bypass": false
         }
       },
@@ -313,9 +312,8 @@
         "@PowercabVoicing": 0,
         "@current_snapshot": 1,
         "@cursor_dsp": 0,
-        "@cursor_group": "block5",
-        "@cursor_path": 0,
-        "@cursor_position": 5,
+        "@cursor_group": "split",
+        "@cursor_position": 4,
         "@guitarinputZ": 0,
         "@model": "@global_params",
         "@pedalstate": 2,
@@ -383,10 +381,10 @@
                 "@value": 8
               }
             },
-            "join": {
-              "A Level": {
+            "split": {
+              "RouteTo": {
                 "@fs_enabled": false,
-                "@value": 0
+                "@value": 0.75
               }
             }
           }
@@ -452,10 +450,10 @@
                 "@value": 9
               }
             },
-            "join": {
-              "A Level": {
+            "split": {
+              "RouteTo": {
                 "@fs_enabled": false,
-                "@value": -6.1999969482421875
+                "@value": 0.75
               }
             }
           }
@@ -521,10 +519,10 @@
                 "@value": 4
               }
             },
-            "join": {
-              "A Level": {
+            "split": {
+              "RouteTo": {
                 "@fs_enabled": false,
-                "@value": -7.700000762939453
+                "@value": 0.75
               }
             }
           }
