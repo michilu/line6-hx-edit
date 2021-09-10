@@ -6,7 +6,7 @@
       "application": "HX Edit",
       "appversion": 51445760,
       "build_sha": "v3.02-223-g4c4f82f",
-      "modifieddate": 1630728370,
+      "modifieddate": 1631232614,
       "name": "Crystal Drive"
     },
     "tone": {
@@ -49,7 +49,7 @@
         },
         "block1": {
           "125Hz": -1.6000003814697266,
-          "16kHz": 11.600000381469727,
+          "16kHz": -9.399999618530273,
           "1kHz": 0,
           "250Hz": 0,
           "2kHz": 0,
@@ -412,17 +412,11 @@
         "@variax_lockctrls": 0,
         "@variax_magmode": false,
         "@variax_model": 0,
-        "@variax_str1level": 1,
         "@variax_str1tuning": 0,
-        "@variax_str2level": 1,
         "@variax_str2tuning": 0,
-        "@variax_str3level": 1,
         "@variax_str3tuning": 0,
-        "@variax_str4level": 1,
         "@variax_str4tuning": 0,
-        "@variax_str5level": 1,
         "@variax_str5tuning": 0,
-        "@variax_str6level": 1,
         "@variax_str6tuning": 0,
         "@variax_toneknob": -0.10000002384185791,
         "@variax_volumeknob": -0.10000002384185791
