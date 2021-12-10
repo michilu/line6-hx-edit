@@ -6,7 +6,7 @@
       "application": "HX Edit",
       "appversion": 51445760,
       "build_sha": "v3.02-223-g4c4f82f",
-      "modifieddate": 1639035888,
+      "modifieddate": 1641614936,
       "name": "Crystal Stack"
     },
     "tone": {
@@ -14,7 +14,7 @@
         "dsp0": {
           "split": {
             "RouteTo": {
-              "@controller": 9,
+              "@controller": 1,
               "@max": 1,
               "@min": 0
             }
@@ -84,7 +84,7 @@
         "block3": {
           "@cab": "cab0",
           "@enabled": true,
-          "@mic": 1,
+          "@mic": 7,
           "@model": "HD2_Cab1x12FieldCoil",
           "@no_snapshot_bypass": false,
           "@path": 0,
@@ -93,7 +93,7 @@
           "Distance": 1,
           "EarlyReflections": 0,
           "HighCut": 8000,
-          "Level": 1.5999984741210938,
+          "Level": 6,
           "LowCut": 80
         },
         "block4": {
@@ -171,12 +171,12 @@
         },
         "cab0": {
           "@enabled": true,
-          "@mic": 0,
+          "@mic": 13,
           "@model": "HD2_Cab4x12SoloLeadEM",
           "Distance": 1,
           "EarlyReflections": 0,
           "HighCut": 8000,
-          "Level": 0,
+          "Level": 2.5,
           "LowCut": 80
         },
         "inputA": {
