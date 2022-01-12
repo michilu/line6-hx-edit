@@ -6,12 +6,19 @@
       "application": "HX Edit",
       "appversion": 51445760,
       "build_sha": "v3.02-223-g4c4f82f",
-      "modifieddate": 1641614936,
+      "modifieddate": 1641989908,
       "name": "Crystal Stack"
     },
     "tone": {
       "controller": {
         "dsp0": {
+          "join": {
+            "A Level": {
+              "@controller": 9,
+              "@max": 12,
+              "@min": -60
+            }
+          },
           "split": {
             "RouteTo": {
               "@controller": 1,
@@ -52,7 +59,7 @@
           "@position": 1,
           "@stereo": false,
           "@type": 0,
-          "Attack": 0.03799998760223389,
+          "Attack": 0.037000060081481934,
           "Knee": 7.399999618530273,
           "Level": 6.200004577636719,
           "Mix": 1,
@@ -135,17 +142,23 @@
         },
         "block6": {
           "@enabled": true,
-          "@model": "HD2_ImpulseResponse1024",
+          "@model": "HD2_PhaserDeluxePhaser",
           "@no_snapshot_bypass": false,
           "@path": 1,
           "@position": 5,
-          "@type": 5,
-          "@uuid": "0a381bd9bd54e60f1a69821edfa61387",
-          "HighCut": 20100,
-          "Index": 42,
-          "Level": -2.799999237060547,
-          "LowCut": 125,
-          "Mix": 0.12000000476837158
+          "@stereo": true,
+          "@type": 0,
+          "Depth": 0,
+          "Feedback": -1,
+          "Level": 0,
+          "Mix": 0.31999993324279785,
+          "Offset": 0.09000003337860107,
+          "Rate": 0,
+          "Spread": 0,
+          "Stages": 8,
+          "SyncSelect1": 6,
+          "TempoSync1": false,
+          "WaveShape": 2
         },
         "block7": {
           "@enabled": true,
@@ -221,7 +234,7 @@
         "split": {
           "@enabled": true,
           "@model": "HD2_AppDSPFlowSplitAB",
-          "@no_snapshot_bypass": false,
+          "@no_snapshot_bypass": true,
           "@position": 2,
           "RouteTo": 0.5,
           "bypass": false
@@ -244,136 +257,6 @@
         "@topology0": "SABJ",
         "@topology1": 0
       },
-      "irUuidTable": {
-        "000": "98c561fc91b442589d0a0b2364cfcb7b",
-        "001": "4f8b9ceaee57da229d55c50fbe3893a2",
-        "002": "39e6a3c496a1dc54fbad3235e4dbf092",
-        "003": "40eb777d62769b06d48f06d69ba8a619",
-        "004": "4b1179665d6b13359d63609ab41b3eee",
-        "005": "a32f5eb04f89c17df1f96a6ef4797837",
-        "006": "afdf07c6947dc0865e2e80067b9d68da",
-        "007": "ecd5a9ddf5a4dea4fdc44648fdbcc437",
-        "008": "dd6d0f2a238767ea1e627a795c9f5bbf",
-        "009": "e3e83460dfea89fbdaaaeb754cf15a3f",
-        "010": "b2dde3ea63d4ba54c4d3d509575b9b50",
-        "011": "942b63cf91699e6181543a50d999ef61",
-        "012": "8301d182a033f2a77f12e82bf26f59b4",
-        "013": "b650a90f53c410b84ef96c3e588d84cd",
-        "014": "d28a0f4436852d8ab2fc5008e1cf6d8a",
-        "015": "ba0492dd6fb2d6adc5ffff8c3a1305a7",
-        "016": "473089419315ce585abbb569505f8a2e",
-        "017": "44d1a083203c220826c62831be3b403f",
-        "018": "cb82f7049a2716ffaa7b0715ce5d64bb",
-        "019": "8f0d8e67a516457cfe61a7574a2ac1ec",
-        "020": "987109ec8ab4c7a67c346a336103c370",
-        "021": "f86846ff111543f101469dc8e1ede76e",
-        "022": "3fca02b4e41428cca6b635aac59d609a",
-        "023": "879d9d4328d74af8e299fb0e2d8a4016",
-        "024": "59e20445d0599869160dfbcd784d7f15",
-        "025": "4f8b9ceaee57da229d55c50fbe3893a2",
-        "026": "8d3ef9e1ae36d2d5df308c729b6a85f6",
-        "027": "daebd267f080fc101be1dfd44980945c",
-        "028": "6fc97ce34497edd31ca5757ae6072673",
-        "029": "7bbc3fdc6e8748c49cdb6685c3f3d814",
-        "030": "4ed90838b534d9fbd4ce4202fc84e4ab",
-        "031": "257fa5ac0cfbef07fe93cb212442b816",
-        "032": "3d04fef897531d041ca5d9617fdd6f5f",
-        "033": "53dd066403d16b130b0125e607d83aba",
-        "034": "c4a794330941928ccc15c1419db2380a",
-        "035": "98c561fc91b442589d0a0b2364cfcb7b",
-        "036": "2af291d1ab32dad2e2002c8e80e7f2b5",
-        "037": "f28e31a1f2b45fe0c124bb8e60d912dc",
-        "038": "34978e2b1a4d31985264e896ca25f6c5",
-        "039": "20b884536e88e898b80b35debf18741d",
-        "040": "35a0fd35a3f2605321347bb777bcb26a",
-        "041": "0a381bd9bd54e60f1a69821edfa61387",
-        "042": "",
-        "043": "",
-        "044": "",
-        "045": "",
-        "046": "",
-        "047": "",
-        "048": "",
-        "049": "",
-        "050": "",
-        "051": "",
-        "052": "",
-        "053": "",
-        "054": "",
-        "055": "",
-        "056": "",
-        "057": "",
-        "058": "",
-        "059": "",
-        "060": "",
-        "061": "",
-        "062": "",
-        "063": "",
-        "064": "",
-        "065": "",
-        "066": "",
-        "067": "",
-        "068": "",
-        "069": "",
-        "070": "",
-        "071": "",
-        "072": "",
-        "073": "",
-        "074": "",
-        "075": "",
-        "076": "",
-        "077": "",
-        "078": "",
-        "079": "",
-        "080": "",
-        "081": "",
-        "082": "",
-        "083": "",
-        "084": "",
-        "085": "",
-        "086": "",
-        "087": "",
-        "088": "",
-        "089": "",
-        "090": "",
-        "091": "",
-        "092": "",
-        "093": "",
-        "094": "",
-        "095": "",
-        "096": "",
-        "097": "",
-        "098": "",
-        "099": "",
-        "100": "",
-        "101": "",
-        "102": "",
-        "103": "",
-        "104": "",
-        "105": "",
-        "106": "",
-        "107": "",
-        "108": "",
-        "109": "",
-        "110": "",
-        "111": "",
-        "112": "",
-        "113": "",
-        "114": "",
-        "115": "",
-        "116": "",
-        "117": "",
-        "118": "",
-        "119": "",
-        "120": "",
-        "121": "",
-        "122": "",
-        "123": "",
-        "124": "",
-        "125": "",
-        "126": "",
-        "127": ""
-      },
       "snapshot0": {
         "@custom_name": true,
         "@ledcolor": 0,
@@ -384,7 +267,7 @@
         "blocks": {
           "dsp0": {
             "block0": true,
-            "block1": true,
+            "block1": false,
             "block2": true,
             "block3": true,
             "block4": true,
@@ -396,10 +279,16 @@
         },
         "controllers": {
           "dsp0": {
+            "join": {
+              "A Level": {
+                "@fs_enabled": false,
+                "@value": -18
+              }
+            },
             "split": {
               "RouteTo": {
                 "@fs_enabled": false,
-                "@value": 0.875
+                "@value": 0.5
               }
             }
           }
@@ -427,6 +316,12 @@
         },
         "controllers": {
           "dsp0": {
+            "join": {
+              "A Level": {
+                "@fs_enabled": false,
+                "@value": 0
+              }
+            },
             "split": {
               "RouteTo": {
                 "@fs_enabled": false,
@@ -458,6 +353,12 @@
         },
         "controllers": {
           "dsp0": {
+            "join": {
+              "A Level": {
+                "@fs_enabled": false,
+                "@value": 0
+              }
+            },
             "split": {
               "RouteTo": {
                 "@fs_enabled": false,
